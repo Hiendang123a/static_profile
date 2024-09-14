@@ -17,6 +17,7 @@ html{
     font-size: 15px;
     line-height: 18px;
     font-family: 'Poppíns', sans-serif;
+    scroll-behavior: smooth; /* Thêm hiệu ứng cuộn mượt mà cho toàn bộ trang */
 }
 
 a{
@@ -28,11 +29,9 @@ a{
     display: grid;
     grid-template-columns: 15% 85%;
     height: auto; /* Đảm bảo chiều cao là tự động */
-    overflow: auto; /* Cho phép cuộn nếu cần */
 }
 .container_right {
     height: 100vh; /* Hoặc một giá trị chiều cao cụ thể nếu cần */
-    overflow-y: auto; /* Cho phép cuộn dọc nếu cần */
 }
 
 .nav_menu{
